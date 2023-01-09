@@ -54,12 +54,11 @@ header table {
 }
 
 .social {
-    font-size: 23px;
+    font-size: 21px;
     padding: 12px 17px;
     border-radius: 50%;
     background: transparent;
     transition: 0.4s ease-in-out;
-    ;
     margin: 0px 8px;
 }
 
@@ -202,7 +201,7 @@ header table {
 #about h1 {
     padding: 5px 0px;
     border-bottom: 4px solid rgb(228, 228, 228);
-    width: 10%;
+    width: 12%;
 }
 
 #contact {
@@ -244,10 +243,10 @@ header table {
 }
 
 #footer {
-    width:100%;
-    padding:10vh 0px;
-    text-align:center;
-    font-weight:bold;
+    width: 100%;
+    padding: 10vh 0px;
+    text-align: center;
+    font-weight: bold;
     border-radius: 8px;
     background: rgb(228, 228, 228);
     color: rgb(40, 42, 58);
@@ -283,18 +282,15 @@ button:focus {
 }
 
 @media (max-width: 1000px) {
-    #photos {
-        columns: 1;
-        column-gap: 0%;
+    #navigation {
+        width: 100%;
+        border-radius: 16px;
+        text-align: right;
+        background: rgb(57, 62, 70);
     }
 
-    #photos img {
-        margin: 2% 0px;
-    }
-
-    #photos img:hover {
-        transform: scale(1);
-        cursor: pointer;
+    #navigation a {
+        font-size: small;
     }
 
     #top-right-image {
@@ -310,20 +306,19 @@ button:focus {
         text-align: center;
     }
 
-    #about {
+    #hi {
         width: 92% !important;
         height: 75vh;
         padding-top: 20vh !important;
-        text-align: center;
         padding: 0px 4%;
     }
 
-    #about table {
+    #hi table {
         width: 100%;
         margin-top: 6vh;
     }
 
-    #about table tr td {
+    #hi table tr td {
         text-align: center;
     }
 
